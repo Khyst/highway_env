@@ -101,3 +101,44 @@ def register_highway_envs():
         entry_point='highway_env.envs:UTurnEnv'
     )
 
+    # decision_making_highway_env.py
+    register(
+        id='decision-making-highway-v0',
+        entry_point='highway_env.envs:DecisionMakingHighwayEnv',
+    )
+
+    # motion_planner_collision_avoidance_env.py
+    register(
+        id='motion-planner-collision-avoidance-v0',
+        entry_point='highway_env.envs:MotionPlannerCollisionAvoidanceEnv',
+    )
+
+    # motion_planner_parking_env.py
+    register(
+        id='motion-planner-parking-v0',
+        entry_point='highway_env.envs:MotionPlannerParkingEnv',
+    )
+
+    # lateral_control_racetrack_env.py
+    register(
+        id='lateral-control-racetrack-v0',
+        entry_point='highway_env.envs:LateralControlRacetrackEnv',
+    )
+
+    # longitudinal_control_highway_env.py
+    register(
+        id='longitudinal-control-highway-v0',
+        entry_point='highway_env.envs:LongitudinalControlHighwayEnv',
+    )
+
+    # project_highway_env.py
+    register(
+        id='project-highway-v0',
+        entry_point='highway_env.envs:ProjectHighwayEnv',
+    )
+
+    # project_intersection_env.py
+    register(
+        id='project-intersection-v0',
+        entry_point='highway_env.envs:ProjectIntersectionEnv',
+    )

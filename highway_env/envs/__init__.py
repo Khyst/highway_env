@@ -8,3 +8,10 @@ from highway_env.envs.lane_keeping_env import *
 from highway_env.envs.u_turn_env import *
 from highway_env.envs.exit_env import *
 from highway_env.envs.racetrack_env import *
+from highway_env.envs.decision_making_highway_env import *
+from highway_env.envs.motion_planner_collision_avoidance_env import *
+from highway_env.envs.motion_planner_parking_env import *
+from highway_env.envs.lateral_control_racetrack_env import *
+from highway_env.envs.longitudinal_control_highway_env import *
+from highway_env.envs.project_highway_env import *
+from highway_env.envs.project_intersection_env import *
